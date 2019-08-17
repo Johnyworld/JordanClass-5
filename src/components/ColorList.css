@@ -1,0 +1,10 @@
+.ColorList {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.ColorList input {
+	height: 25px;
+	border: 1px solid #999;
+	outline-width: 0;
+}

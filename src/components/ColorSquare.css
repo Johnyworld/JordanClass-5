@@ -1,0 +1,16 @@
+.Color {
+	width: 50%;
+	height: 50%;
+	float: left;
+	opacity: 0.9;
+}
+
+.Color.active {
+	opacity: 1;
+}
+
+.ColorSquare {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
