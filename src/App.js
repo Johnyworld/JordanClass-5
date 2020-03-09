@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
-import Counter from './components/Counter';
-import ColorList from './components/ColorList';
-import ColorSquare from './components/ColorSquare';
+import CounterContainer from './containers/CounterContainer';
+import ColorListContainer from './containers/ColorListContainer';
+import ColorSquareContainer from './containers/ColorSquareContainer';
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Counter />
-				<ColorSquare />
-				<ColorList />
+				<CounterContainer />
+				<ColorSquareContainer />
+				<ColorListContainer />
 			</div>
 		);
 	}
